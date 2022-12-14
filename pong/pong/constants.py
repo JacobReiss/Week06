@@ -22,20 +22,20 @@ FIELD_LEFT = 0
 FIELD_RIGHT = SCREEN_WIDTH
 
 #FONT
-ASSETS_FONT = 'pong/assets/fonts'
-FONT_FILE = 'pong/assets/fonts/zorque.otf'
+ASSETS_FONT = 'assets/fonts'
+FONT_FILE = 'assets/fonts/zorque.otf'
 FONT_SMALL = 32
 FONT_LARGE = 48
 
 #SOUND
-ASSETS_SOUND = 'pong/assets/sounds'
-BOUNCE_SOUND = 'pong/assets/sounds/game_boing.wav'
-OVER_SOUND = 'pong/assets/sounds/game_points.wav'
-WELCOME_SOUND = 'pong/assets/sounds/game_start.mp3'
-INIT_SOUND = 'pong/assets/sounds/game_init_2.wav'
+ASSETS_SOUND = 'assets/sounds'
+BOUNCE_SOUND = 'assets/sounds/game_boing.wav'
+OVER_SOUND = 'assets/sounds/game_points.wav'
+WELCOME_SOUND = 'assets/sounds/game_start.mp3'
+INIT_SOUND = 'assets/sounds/game_init_2.wav'
 
 #IMAGES
-ASSETS_IMAGES = 'pong/assets/images'
+ASSETS_IMAGES = 'assets/images'
 
 #TEXT
 ALIGN_CENTER = 0
@@ -89,7 +89,7 @@ SCORE_2_POSITION = Point(SCREEN_WIDTH - 100, HUD_MARGIN)
 
 #BALL
 BALL_GROUP = 'balls'
-BALL_IMAGE = 'pong/assets/images/000.png'
+BALL_IMAGE = 'assets/images/000.png'
 BALL_HEIGHT = 28
 BALL_WIDTH = 28
 BALL_VELOCITY = 10
@@ -100,7 +100,7 @@ RACKET_WIDTH = 25
 RACKET_HEIGHT = 200
 RACKET_VELOCITY = 7
 RACKET_RATE = 6
-RACKET_IMAGES = [f'pong/assets/images/pong{n:03}.png' for n in range(111, 120)]
+RACKET_IMAGES = [f'assets/images/pong{n:03}.png' for n in range(111, 120)]
 
 #DIALOG
 DIALOG_GROUP = 'dialogs'
